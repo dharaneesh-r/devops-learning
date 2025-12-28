@@ -1,0 +1,220 @@
+2025-12-27T15:32:12.987Z [[32minfo[39m]: 
+2025-12-27T15:32:25.002Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:39:04.570Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:39:34.721Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:39:36.155Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:39:57.890Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:39:57.895Z [[31merror[39m]: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (D:\software-development-engineer\backend-development\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:230:11)
+    at NativeConnection.openUri (D:\software-development-engineer\backend-development\node_modules\mongoose\lib\connection.js:1075:34)
+    at Mongoose.connect (D:\software-development-engineer\backend-development\node_modules\mongoose\lib\mongoose.js:451:15)
+    at Object.<anonymous> (D:\software-development-engineer\backend-development\index.js:19:10)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+2025-12-27T15:40:27.638Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:40:56.356Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:40:56.358Z [[33mwarn[39m]: MongoDB connection Failed
+2025-12-27T15:41:04.606Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:41:04.609Z [[33mwarn[39m]: MongoDB connection Failed
+2025-12-27T15:41:08.056Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:41:08.058Z [[33mwarn[39m]: MongoDB connection Failed - 
+2025-12-27T15:41:21.189Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:41:21.191Z [[33mwarn[39m]: MongoDB connection Failed - 
+2025-12-27T15:41:30.464Z [[32minfo[39m]: Server is Running on PORT - 8080
+2025-12-27T15:41:30.466Z [[33mwarn[39m]: MongoDB connection Failed - 
+2025-12-27T15:42:20.255Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:42:20.257Z [[33mwarn[39m]: MongoDB connection failed: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2025-12-27T15:42:22.755Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:42:22.757Z [[33mwarn[39m]: MongoDB connection failed: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2025-12-27T15:42:26.805Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:42:26.807Z [[33mwarn[39m]: MongoDB connection failed: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2025-12-27T15:42:40.643Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:42:40.945Z [[33mwarn[39m]: MongoDB connection failed: querySrv ESERVFAIL _mongodb._tcp.cluster0.lw0fz.mongodb.net
+2025-12-27T15:42:52.664Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:42:53.321Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:44:40.145Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:44:40.609Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:44:48.093Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:44:50.651Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:45:31.055Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:45:31.569Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:45:58.655Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:46:00.097Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:46:02.145Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:46:03.680Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:58:43.650Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:58:45.176Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:58:59.366Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:59:00.812Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T15:59:09.702Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T15:59:11.140Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:00:10.749Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:00:11.185Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:00:53.335Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:00:53.798Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:01:04.132Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:01:04.574Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:01:26.762Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:01:27.208Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:01:29.095Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:01:29.577Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:01:51.919Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:01:52.390Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:02:24.311Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:02:24.744Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:03:39.902Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:03:40.410Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:03:42.288Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:03:42.801Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:03:58.464Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:03:58.916Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-27T16:04:08.668Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-27T16:04:09.339Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:04:16.570Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:04:17.155Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:06:26.747Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:06:27.325Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:10:31.861Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:10:32.465Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:10:33.546Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:10:34.142Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:11:36.784Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:11:37.368Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:15:30.346Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:15:30.903Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:15:43.016Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:15:43.571Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:15:56.455Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:15:57.057Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:18:30.630Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:18:31.144Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:18:58.305Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:18:58.834Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:19:17.237Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:19:17.819Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:19:44.026Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:19:44.600Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:26:39.902Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:26:40.509Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:30:45.527Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:30:46.045Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:30:54.624Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:30:55.206Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:31:38.530Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:31:40.038Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:31:49.111Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:31:50.833Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:31:52.399Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:32:12.553Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:32:13.066Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:32:29.443Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:32:29.966Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:32:31.417Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:32:31.949Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:34:13.578Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:34:14.125Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:34:26.778Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:34:27.413Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:35:32.246Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:35:32.816Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:35:43.542Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:35:44.103Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:36:15.265Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:36:15.893Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:36:18.628Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:36:19.239Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:36:46.316Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:36:46.924Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:37:09.166Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:37:09.760Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:40:09.333Z [[31merror[39m]: undefined
+2025-12-28T12:40:09.351Z [[32minfo[39m]: ::1 - - [28/Dec/2025:12:40:09 +0000] "GET /register HTTP/1.1" 500 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2025-12-28T12:40:10.307Z [[31merror[39m]: undefined
+2025-12-28T12:40:10.311Z [[32minfo[39m]: ::1 - - [28/Dec/2025:12:40:10 +0000] "GET /favicon.ico HTTP/1.1" 500 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2025-12-28T12:48:23.563Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:48:24.122Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:57:09.509Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T12:57:10.109Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T12:57:32.497Z [[31merror[39m]: undefined
+2025-12-28T12:57:32.505Z [[32minfo[39m]: ::1 - - [28/Dec/2025:12:57:32 +0000] "POST /register HTTP/1.1" 500 35 "-" "PostmanRuntime/7.50.0"
+2025-12-28T12:59:36.182Z [[31merror[39m]: undefined
+2025-12-28T12:59:36.223Z [[32minfo[39m]: ::1 - - [28/Dec/2025:12:59:36 +0000] "POST /register HTTP/1.1" 500 35 "-" "PostmanRuntime/7.50.0"
+2025-12-28T13:01:24.549Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:01:25.161Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:01:37.667Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:01:39.322Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:01:45.731Z [[31merror[39m]: undefined
+2025-12-28T13:01:45.753Z [[32minfo[39m]: ::1 - - [28/Dec/2025:13:01:45 +0000] "POST /register HTTP/1.1" 500 35 "-" "PostmanRuntime/7.50.0"
+2025-12-28T13:02:16.480Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:02:17.052Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:02:18.480Z [[32minfo[39m]: ::1 - - [28/Dec/2025:13:02:18 +0000] "POST /register HTTP/1.1" 404 148 "-" "PostmanRuntime/7.50.0"
+2025-12-28T13:02:28.951Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:02:29.523Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:02:44.236Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:02:45.797Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:02:46.404Z [[32minfo[39m]: Registeration Done Successfully
+2025-12-28T13:02:46.408Z [[32minfo[39m]: ::1 - - [28/Dec/2025:13:02:46 +0000] "POST /register HTTP/1.1" 201 279 "-" "PostmanRuntime/7.50.0"
+2025-12-28T13:09:39.092Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:09:39.595Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:15:15.168Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:15:15.729Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:17:15.356Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:17:15.917Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:21:05.971Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:21:06.515Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:21:18.759Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:21:19.303Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:21:25.765Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:21:26.309Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:21:46.191Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:21:46.736Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:21:47.987Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:21:48.539Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:23:24.771Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:23:25.378Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:23:27.027Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:23:28.556Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:23:46.126Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:23:46.723Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:24:05.362Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:24:05.973Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:24:22.888Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:24:23.459Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:24:44.827Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:24:45.383Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:25:21.693Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:25:22.205Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:25:40.604Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:25:41.107Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:31:07.631Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:31:08.182Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:31:35.407Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:31:35.916Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:31:37.346Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:31:38.861Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:31:55.742Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:31:56.308Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:32:25.282Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:32:25.892Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:33:11.747Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:33:13.202Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:33:13.785Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:33:30.452Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:33:31.062Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:33:40.700Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:33:41.395Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:34:10.532Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:34:11.129Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:34:28.113Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:34:28.746Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:34:30.617Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:34:31.176Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-28T13:34:41.578Z [[32minfo[39m]: ::1 - - [28/Dec/2025:13:34:41 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2025-12-28T13:34:42.486Z [[31merror[39m]: undefined
+2025-12-28T13:34:42.495Z [[32minfo[39m]: ::1 - - [28/Dec/2025:13:34:42 +0000] "GET /favicon.ico HTTP/1.1" 500 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+2025-12-28T13:40:37.794Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-28T13:40:38.436Z [[32minfo[39m]: MongoDB connected successfully
