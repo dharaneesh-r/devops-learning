@@ -30,3 +30,4 @@
 2025-12-30T18:54:44.211Z [[31merror[39m]: undefined
 2025-12-30T18:54:49.566Z [[31merror[39m]: undefined
 2025-12-30T18:54:58.853Z [[31merror[39m]: undefined
+2025-12-31T15:54:33.766Z [[31merror[39m]: MongoDB connection failed: options usenewurlparser, useunifiedtopology are not supported

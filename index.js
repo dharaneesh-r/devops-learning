@@ -8,7 +8,6 @@ const logger = require("./config/logger");
 const morgan = require("morgan");
 
 // METRICS CONFIGURATION
-
 const { client, httpRequestDurationSeconds } = require("./config/metrics");
 
 // API IMPORTS CONFIGURE
@@ -17,11 +16,17 @@ const RegisterRouter = require("./view/registerView");
 // Load environment variables
 dotenv.config();
 
-// Validate environment variables
-if (!process.env.MONGODB_URL) {
-  logger.error("MONGODB_URL is not set!");
+// Validate MongoDB environment variables
+const { MONGODB_USER, MONGODB_PASSWORD, MONGODB_CLUSTER, MONGODB_DB } = process.env;
+if (!MONGODB_USER || !MONGODB_PASSWORD || !MONGODB_CLUSTER || !MONGODB_DB) {
+  logger.error("MongoDB environment variables are not properly set!");
   process.exit(1);
 }
+
+// Build MongoDB connection URL
+const MONGODB_URL = `mongodb+srv://${encodeURIComponent(MONGODB_USER)}:${encodeURIComponent(
+  MONGODB_PASSWORD
+)}@${MONGODB_CLUSTER}/${MONGODB_DB}?retryWrites=true&w=majority`;
 
 const app = express();
 
@@ -31,8 +36,8 @@ app.use(cors());
 app.use(helmet());
 app.use(
   rateLimit({
-    windowMs: 15 * 60 * 1000,
-    max: 100,
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // limit each IP to 100 requests per windowMs
   })
 );
 app.use(
@@ -41,27 +46,26 @@ app.use(
 
 // MongoDB connection
 mongoose
-  .connect(process.env.MONGODB_URL)
+  .connect(MONGODB_URL) // No need for useNewUrlParser/useUnifiedTopology
   .then(() => logger.info("MongoDB connected successfully"))
   .catch((err) => logger.error(`MongoDB connection failed: ${err.message}`));
 
-// Health check
+// Health check endpoint
 app.get("/health", (_, res) => {
   logger.info("Health check endpoint hit");
   res.status(200).send("API is healthy");
 });
 
+// Metrics endpoint
 app.get("/metrics", async (req, res) => {
   res.set("Content-Type", client.register.contentType);
   res.end(await client.register.metrics());
 });
 
-// API CALLING IN MAIN FILE
-
+// API ROUTES
 app.use("/register", RegisterRouter);
 
-// ROUTE INTEGRATION FOR THE METRICS
-
+// Metrics integration middleware
 app.use((req, res, next) => {
   const end = httpRequestDurationSeconds.startTimer();
 
@@ -76,7 +80,7 @@ app.use((req, res, next) => {
 });
 
 // Centralized error handler
-app.use((err, res) => {
+app.use((err, req, res, next) => {
   logger.error(err.stack);
   res
     .status(err.status || 500)

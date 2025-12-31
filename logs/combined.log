@@ -232,3 +232,10 @@
 2025-12-30T18:54:58.853Z [[31merror[39m]: undefined
 2025-12-30T18:54:58.854Z [[32minfo[39m]: ::1 - - [30/Dec/2025:18:54:58 +0000] "GET /favicon.ico HTTP/1.1" 500 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
 2025-12-30T19:00:31.078Z [[32minfo[39m]: MongoDB disconnected, server shutting down
+2025-12-31T15:54:33.757Z [[32minfo[39m]: RegisterRouter
+2025-12-31T15:54:33.765Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-31T15:54:33.766Z [[31merror[39m]: MongoDB connection failed: options usenewurlparser, useunifiedtopology are not supported
+2025-12-31T15:55:17.884Z [[32minfo[39m]: RegisterRouter
+2025-12-31T15:55:17.894Z [[32minfo[39m]: Server running on PORT - 8080
+2025-12-31T15:55:18.428Z [[32minfo[39m]: MongoDB connected successfully
+2025-12-31T15:55:29.823Z [[32minfo[39m]: MongoDB disconnected, server shutting down
