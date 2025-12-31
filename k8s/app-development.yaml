@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: learning-devops
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: learning-devops
+  template:
+    metadata:
+      labels:
+        app: learning-devops
+    spec:
+      containers:
+        - name: app
+          image: dharaneeshr0803/learning-devops:latest
+          ports:
+            - containerPort: 8080
